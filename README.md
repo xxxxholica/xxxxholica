@@ -14,7 +14,7 @@ Web×IoT メイカーズチャレンジ PLUS in 鳥取
 
 ## 公開作品
 
-**[kikimimi](https://github.com/xxxxholica/kikimimi)** — Google Cloud TTSとDiscord APIを用いた読み上げボット
+**[Kikimimi](https://github.com/xxxxholica/Kikimimi)** — Google Cloud TTSとDiscord APIを用いた読み上げボット
 
 - 運用開始: 2025年3月
 - 規模: 利用者約20人
