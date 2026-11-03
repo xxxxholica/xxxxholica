@@ -13,19 +13,25 @@ Web×IoT メイカーズチャレンジ PLUS in 鳥取
 
 ## 公開作品
 
+**[8hour](https://github.com/xxxxholica/8hour)** — TypeScriptとCanvas APIによる8時間限定の裏紙アプリ
+
+- 用途: 思考の種を書き捨てる個人用の一時メモ
+- 仕組み: 描き始めから8時間でロック、全消去で時間が巻き戻るタイマー
+- 入力: ペン・マーカーの手描きとリスト記法対応の行テキスト
+- 記事: [足せば劣化版、削れば伝わらないメモアプリの設計](https://zenn.dev/xxxxholica/articles/8hour-ephemeral-memo-design)
+
 **[gamecenter](https://github.com/xxxxholica/gamecenter)** — TypeScriptとThree.jsによる自作ブラウザアーケードゲーム集
 
-- 規模: 学祭展示3日間で延べ723回起動
+- 実績: 学祭展示3日間で延べ723回起動
 - 担当: 全体設計・システム基盤・ゲーム開発
-- 機能①: レバーとボタンのみで回遊・自動復帰できる筐体向け共通UI
-- 機能②: 死因・死亡座標・軽量リプレイを記録するテレメトリ基盤
-- 設計判断: 1日目の離脱ログを根拠に6作品を改修し、翌日の滞在時間を改善
+- 操作: レバーとボタンのみで回遊・自動復帰できる筐体向け共通UI
+- 計測: 死因・死亡座標・軽量リプレイを記録するテレメトリ基盤
+- 記事: [テレメトリ駆動で開始直後の離脱を減らすゲーム設計](https://zenn.dev/xxxxholica/articles/gamecenter-telemetry-gamedev)
 
 **[kikimimi](https://github.com/xxxxholica/kikimimi)** — Google Cloud TTSとDiscord APIを用いた読み上げボット
 
 - 運用開始: 2025年3月
 - 規模: 利用者約20人
-- 機能①: ボイスチャンネルの入退室に連動した自動接続・切断
-- 機能②: 読み上げと音楽再生の同時利用
-- 設計判断: ローカルでの音声生成から、応答速度を優先してGoogle Cloud TTSへ移行
+- 接続: ボイスチャンネルの入退室に連動した自動接続・切断
+- 再生: 読み上げと音楽再生の同時利用
 - 安全策: 無料利用枠を超えない自動停止ガード
