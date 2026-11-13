@@ -13,6 +13,14 @@ Web×IoT メイカーズチャレンジ PLUS in 鳥取
 
 ## 公開作品
 
+**[shop-of-many-orders](https://github.com/xxxxholica/shop-of-many-orders)** — TypeScriptとGeminiによる購入画面の手直し開発スタジオ
+
+- 題材: ダークパターンを含む通販画面で売り手と顧客の両立を探る設計練習
+- 操作: 赤ペンの手描き囲みと対話で対象部品を指定する差分パッチ改修
+- 判定: 視力や指のずれなど制約の異なる顧客9人の操作シミュレーション
+- 計測: 発言本文を残さず質問や手戻りの傾向だけを振り返るテレメトリ
+- 記事: [コードを書かずに学ぶ設計判断と言語化の壁](https://zenn.dev/xxxxholica/articles/darkpattern-design-studio)
+
 **[8hour](https://github.com/xxxxholica/8hour)** — TypeScriptとCanvas APIによる8時間限定の裏紙アプリ
 
 - 用途: 思考の種を書き捨てる個人用の一時メモ
